@@ -1,0 +1,28 @@
+#skillDiv{
+  margin-bottom: 100px;
+  border: 1px solid white;
+  height: 25rem;
+  background-color:white;
+}
+
+#skillDiv>p{
+  width: 400px;
+  padding: 10px;
+  margin: 1.5rem auto;
+  color: black;
+  font-size: 2rem;
+}
+
+@media (max-width:1024px) and (min-width:790px) {
+  
+  #skillDiv{
+   height: 35rem;
+  
+  }
+}
+  @media (max-width:790px) {
+  #skillDiv{
+   height: 45rem;
+  
+  }
+}

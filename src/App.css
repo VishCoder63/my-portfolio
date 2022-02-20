@@ -1,7 +1,24 @@
-.App {
-  text-align: center;
+*{
+padding: 0px;
+margin: 0px;
+font-family:Poppins, sans-serif;
+box-sizing: border-box;
+}
+.scrollBox{
+  scroll-behavior: smooth; 
+  overflow-y: scroll;
+  height: 100vh;
 }
 
+.App {
+  text-align: center;
+  background-color: rgb(24, 24, 27);
+  /* color: white; */
+  font-weight: 600;
+}
+a{
+  text-decoration: none;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
