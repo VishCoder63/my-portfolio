@@ -2,11 +2,10 @@
   box-sizing: border-box;
 }
 
-#contactDiv{
-  border: 1px solid white;  
+#contactDiv{    
   color:black;
   background-color:white;
-  height: 15rem;
+  height: 18rem;
   margin-top: 20px;
   margin-bottom: 10px;  
 }
@@ -17,23 +16,27 @@ h1{
 
 #contactDiv>div p{
   margin: 1rem 0;
-}
+  
+  }
 #contactDiv>div p span{
   color: #A7A9BE;
 }
 
 #contactDiv>div{
-  color:black;
-  /* border: 1px solid red;   */
+  color:black;    
   height: 50%; 
-  width: 50%;
-  text-align: left;
-  margin: 4em 0;
-  margin-left: 1rem; 
+  width: 50%;  
+  text-align: center;
+  margin: 4em auto;
+  padding-top: 2rem;
 }
 
-#contactDiv+p{
+#contactDiv+p{  
   color: white;
+}
+#contactDiv+p span{   
+  color: red;
+  font-size: 1.1rem;
 }
 .socials a{
   margin: 1rem .5rem 1rem 0;
@@ -42,6 +45,12 @@ h1{
 }
 
 @media (max-width:1024px) and (min-width:790px) {
+  
+  #contactDiv{
+    height: 20rem;
+  }
+}
+@media (max-width:790px) {
   
   #contactDiv{
     height: 20rem;

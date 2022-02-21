@@ -8,8 +8,8 @@ export function Projects() {
     <h2>Projects</h2>    
     <div id="projectsDiv">
       <div>
-          <img src="https://camo.githubusercontent.com/e569afdf36fd6a53c082b32ad5953394904b853267c83c4f7a0a1c962e8310a3/68747470733a2f2f63646e2e686173686e6f64652e636f6d2f7265732f686173686e6f64652f696d6167652f75706c6f61642f76313633363830323637353834342f4157465f77444d4d4e2e706e67" alt="" />
-          <div>A front-end clone of Fastrack website developed as a Solo project in 6 days.
+          <img src="https://camo.githubusercontent.com/e569afdf36fd6a53c082b32ad5953394904b853267c83c4f7a0a1c962e8310a3/68747470733a2f2f63646e2e686173686e6f64652e636f6d2f7265732f686173686e6f64652f696d6167652f75706c6f61642f76313633363830323637353834342f4157465f77444d4d4e2e706e67" alt="" />          
+          <div><div className='proj-title'>FASTRACK CLONE</div>A front-end clone of Fastrack website developed as a Solo project in 6 days.
           <br/> Features: Filtering products, Deleting a product from cart,Sigin/Signup using Local Storage etc.</div>
           <div className='projecttags'>
             <div><FaHtml5 size={30}/></div>
@@ -21,10 +21,9 @@ export function Projects() {
           <div className='button'><a target='_blank' href="https://drive.google.com/file/d/1Kop5Rta1xm7Fv1hFY44VLSKfZXssyA21/view?usp=sharing">Demo</a></div>
       </div>
     <div className='project-2'>
-        <img src={pic} alt="" />
-        
-        <div>A full-stack clone of Pepperfry website developed by 3 members in 6 days.
-         <br/> Features: Filtering products, Products sourced from Mongoose,Sigin/Signup and Authorisation using Node endpoints etc.</div>
+        <img src={pic} alt="" />                
+        <div><div className='proj-title'>PEPPERFRY CLONE</div>A full-stack clone of Pepperfry website developed by 3 members in 6 days.
+         <br/> Features: Filtering products, Products sourced from Mongoose,Sigin/Signup and Authorisation using Node</div>
         <div className='projecttags'>
           <div><FaHtml5 size={30}/></div>
           <div><FaCss3Alt size={30}/></div>

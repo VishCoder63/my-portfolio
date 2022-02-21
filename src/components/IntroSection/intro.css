@@ -28,6 +28,10 @@
   color: white;
   width: 60%;
   padding: 2%;
+  
+}
+#intro-div>div:nth-child(2)>p{
+  text-align: justify;
 }
 #intro-div>div:nth-child(2) h1{
   margin: 1rem 0;

@@ -9,7 +9,9 @@ export function IntroSection() {
       </div>
       <div>
         <h1>👋👋👋 I'm Vishnu Nair</h1>
-        <p>Full-stack web developer from India. Love building and learning new things.</p>
+        <p>A passionate Full Stack Web Developer having an experience of building Web apps with JavaScript / Reactjs / Nodejs / MongoDb etc...</p>        
+
+
         <div className='resume'>
           <a target='_blank' href="https://drive.google.com/file/d/17PssNyyZe7r-l3JSaJb3cfjVQk9h4eKW/view?usp=sharing">Resume</a>                  
         </div>

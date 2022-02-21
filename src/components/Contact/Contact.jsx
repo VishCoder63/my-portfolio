@@ -15,6 +15,6 @@ const [email,setEmail]=useState('Gmail')
         </div>
       </div>
     </div>
-  <p>Made by Vishnu Nair</p>
+  <p>Made with <span>♥</span> by Vishnu Nair</p>
   </>
 }

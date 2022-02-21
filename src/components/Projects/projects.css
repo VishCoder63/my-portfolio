@@ -30,9 +30,12 @@ height:50rem;
   padding: .5%;
   padding-bottom: 20px; 
 }
+#projectsDiv>div .proj-title{
+  margin: .3rem;  
+  color: rgb(255, 137, 6);
+}
 
 #projectsDiv>div>p,#projectsDiv>div>div{
-  /* border: 1px solid red;   */
   margin-top: 3%;
   min-height:9%;
 }
@@ -49,19 +52,18 @@ height:50rem;
   
 }
 #projectsDiv>div .button a{
+  border: 2px solid rgb(255, 137, 6); 
+  padding: .2rem;
   color: rgb(255, 137, 6);
 }
 .projecttags{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 2%;   
 }
 
 .projecttags>div{
-  padding: 5px;
-  margin: 3px;
-  width: 2rem;
+  /* border: 1px solid red;  */
   color:rgb(255, 137, 6);
 }
 
