@@ -47,13 +47,13 @@ h1{
 @media (max-width:1024px) and (min-width:790px) {
   
   #contactDiv{
-    height: 20rem;
+    height:auto;
   }
 }
 @media (max-width:790px) {
   
   #contactDiv{
-    height: 20rem;
+    height:auto;
   }
 }
 

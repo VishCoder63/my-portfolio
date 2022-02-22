@@ -10,8 +10,12 @@ export function IntroSection() {
       <div>
         <h1>👋👋👋 I'm Vishnu Nair</h1>
         <p>
-          A passionate Full Stack Web Developer having an experience of
-          building Web apps using HTML / CSS / JavaScript / Reactjs / Nodejs / MongoDb etc.
+          Process-oriented and growth-minded full-stack developer specializing in
+          MERN stack. With a keen interest in
+          problem solving and web development,
+          actively seeking to enter a challenging and
+          growth focused company.<br/><br/>
+          I have an experience of building Web apps using HTML / CSS / JavaScript / Reactjs / Nodejs / MongoDb etc.
           Actively learning new technologies and looking out for ways to apply my learnings.
         </p>        
 

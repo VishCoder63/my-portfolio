@@ -17,13 +17,19 @@
 @media (max-width:1024px) and (min-width:790px) {
   
   #skillDiv{
-   height: 35rem;
+   height: auto;
   
   }
 }
   @media (max-width:790px) {
   #skillDiv{
-   height: 45rem;
+   height: auto;
   
+  }
+}
+
+  @media (max-width:400px) {
+  #skillDiv{
+   height: auto;  
   }
 }

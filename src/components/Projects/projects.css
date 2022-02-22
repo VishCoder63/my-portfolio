@@ -71,37 +71,37 @@ height:50rem;
 @media (max-width:1024px) and (min-width:790px) {
   #projectsDiv{
     flex-direction: column;
-    height: 55rem;
+    height:auto;
     margin: 12rem auto;
 }
 #projectsDiv>div{
   width: 80%;
   margin: 2rem 0rem;
-  height: 100rem;
+  height:auto;
 }
 h2{
   margin-top: -1rem;
 }
 .projects-container{
-  height: 85rem;
+  height:auto;
 }
 }
 
   @media (max-width:790px) {
   #projectsDiv{
     flex-direction: column;
-    height: 70rem;
+    height:auto;
     margin: 6rem auto;
   }
   #projectsDiv>div{
     width: 105%;
-    height: 65%;
+    height:auto;
     margin: 2rem 0rem;
 }
 h2{
   margin-top: -1rem;
 }
 .projects-container{
-  height: 85rem;
+  height:auto;
 }
 }
