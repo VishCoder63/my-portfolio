@@ -1,22 +1,23 @@
-*{
-padding: 0px;
-margin: 0px;
-font-family:Poppins, sans-serif;
-box-sizing: border-box;
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
 }
-.scrollBox{
-  scroll-behavior: smooth; 
+.scrollBox {
+  scroll-behavior: smooth;
   overflow-y: scroll;
   height: 100vh;
 }
 
 .App {
   text-align: center;
-  background-color: #0F0E17;
+  background-color: #0f0e17;
   /* color: white; */
   font-weight: 600;
 }
-a{
+a {
   text-decoration: none;
 }
 .App-logo {
