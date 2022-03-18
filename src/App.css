@@ -4,7 +4,6 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   box-sizing: border-box;
-  /* box-sizing: border-box; */
 }
 .scrollBox {
   scroll-behavior: smooth;
