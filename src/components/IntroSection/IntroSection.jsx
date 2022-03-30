@@ -16,7 +16,7 @@ export function IntroSection() {
           focused company.
           <br />
           <br />I have an experience of building Web apps using HTML / CSS /
-          JavaScript / Reactjs / Nodejs / MongoDb etc. Actively learning new
+          JavaScript / Reactjs / Redux / Nodejs / MongoDb etc. Actively learning new
           technologies and looking out for ways to apply my learnings.
         </p>
 

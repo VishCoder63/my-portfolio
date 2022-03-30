@@ -9,6 +9,17 @@ import {
 } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 export function Projects() {
+  let featuresFast = [
+    "Sigin/Signup",
+    "Product Filtering",
+    "Quick View",
+    "Manage Cart",
+  ];
+  let featuresPrime = [
+    "User Authentication",
+    "Add to Wishlist",
+    "View movies/TV shows",
+  ];
   return (
     <div className="projects-container">
       <h2>Projects</h2>
@@ -19,20 +30,29 @@ export function Projects() {
             alt=""
           />
           <div>
-            <div className="proj-title">FASTRACK CLONE</div>A front-end clone of
-            Fastrack website developed as a Solo project in 6 days.
-            <br /> Features: Filtering products, Deleting a product from
-            cart,Sigin/Signup using Local Storage etc.
+            <div className="proj-title">FASTRACK CLONE</div>
+            <div className="desc">
+              A front-end clone of Fastrack website developed as a Solo project
+              in 6 days.
+            </div>
+            <br />
+            <br />
+            <div className="featureBox">
+              {featuresFast.map((el) => (
+                <div className="features">{el}</div>
+              ))}
+              <p>etc..</p>
+            </div>
           </div>
           <div className="projecttags">
             <div>
-              <FaHtml5 size={30} />
+              <FaHtml5 size={35} />
             </div>
             <div>
-              <FaCss3Alt size={30} />
+              <FaCss3Alt size={35} />
             </div>
             <div>
-              <FaJsSquare size={30} />
+              <FaJsSquare size={35} />
             </div>
           </div>
           <div className="button">
@@ -53,10 +73,10 @@ export function Projects() {
           </div>
           {/* <div className="button">
             <a
-              target="_blank"
-              href="https://drive.google.com/file/d/1Kop5Rta1xm7Fv1hFY44VLSKfZXssyA21/view?usp=sharing"
+            target="_blank"
+            href="https://drive.google.com/file/d/1Kop5Rta1xm7Fv1hFY44VLSKfZXssyA21/view?usp=sharing"
             >
-              Demo
+            Demo
             </a>
           </div> */}
         </div>
@@ -64,29 +84,36 @@ export function Projects() {
           <img src={pic} alt="" />
           <div>
             <div className="proj-title">PRIME VIDEO CLONE</div>
-            A full-stack clone of Prime-Video website developed by 4 members in
-            6 days.
-            <br /> Features:Sigin/Signup feature;User details sourced from
-            MongoDB,Add to Wishlist feature
+            <div className="desc">
+              A full-stack clone of Prime-Video website developed by 4 members
+              in 6 days.
+            </div>
+            <br /> <br />
+            <div className="featureBox">
+              {featuresPrime.map((el) => (
+                <div className="features">{el}</div>
+              ))}
+              <p>etc..</p>
+            </div>
           </div>
           <div className="projecttags">
             <div>
-              <FaHtml5 size={30} />
+              <FaHtml5 size={35} />
             </div>
             <div>
-              <FaCss3Alt size={30} />
+              <FaCss3Alt size={35} />
             </div>
             <div>
-              <FaJsSquare size={30} />
+              <FaJsSquare size={35} />
             </div>
             <div>
-              <FaNodeJs size={30} />
+              <FaNodeJs size={35} />
             </div>
             <div>
-              <SiMongodb size={30} />
+              <SiMongodb size={35} />
             </div>
             <div>
-              <FaReact size={30} />
+              <FaReact size={35} />
             </div>
           </div>
           <div className="button">
