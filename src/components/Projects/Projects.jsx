@@ -32,10 +32,9 @@ export function Projects() {
           <div>
             <div className="proj-title">FASTRACK CLONE</div>
             <div className="desc">
-              A front-end clone of Fastrack website developed as a Solo project
-              in 6 days.
+              <br />A front-end clone of Fastrack website developed as a Solo
+              project in 6 days.
             </div>
-            <br />
             <br />
             <div className="featureBox">
               {featuresFast.map((el) => (
@@ -85,10 +84,10 @@ export function Projects() {
           <div>
             <div className="proj-title">PRIME VIDEO CLONE</div>
             <div className="desc">
-              A full-stack clone of Prime-Video website developed by 4 members
-              in 6 days.
+              <br />A full-stack clone of Prime-Video website developed by 4
+              members in 6 days.
             </div>
-            <br /> <br />
+            <br />
             <div className="featureBox">
               {featuresPrime.map((el) => (
                 <div className="features">{el}</div>
