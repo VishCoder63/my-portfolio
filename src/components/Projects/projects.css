@@ -79,10 +79,10 @@ h2 {
   margin: 0.7rem 0;
   margin-right: 1rem;
   display: inline-block;
-  padding-top: 3%;
   border: 2px solid rgb(255, 137, 6);
   transition: 0.5s;
   border-radius: 10%;
+  padding: 1rem 0;
 }
 #projectsDiv > div .button a {
   padding: 0.2rem;
@@ -104,7 +104,7 @@ h2 {
   color: rgb(255, 137, 6);
 }
 
-@media (max-width: 1024px) and (min-width: 790px) {
+@media (max-width: 1200px) and (min-width: 790px) {
   #projectsDiv {
     flex-direction: column;
     height: auto;
@@ -120,6 +120,10 @@ h2 {
   }
   .projects-container {
     height: auto;
+  }
+  #projectsDiv > div .button {
+    height: auto;
+    padding: 1rem 0;
   }
 }
 
@@ -139,5 +143,9 @@ h2 {
   }
   .projects-container {
     height: auto;
+  }
+  #projectsDiv > div .button {
+    height: auto;
+    padding: 1rem 0;
   }
 }
