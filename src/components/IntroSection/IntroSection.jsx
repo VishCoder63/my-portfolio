@@ -23,7 +23,7 @@ export function IntroSection() {
         <div className="resume">
           <a
             target="_blank"
-            href="https://drive.google.com/file/d/1gkywj15OcPG_HkHiHxESBhgPEWUACCD6/view?usp=sharing"
+            href="https://drive.google.com/file/d/1IVIBU2N4sM1HYPF2op1YmxXJduYuCCvu/view?usp=sharing"
           >
             Resume
           </a>
