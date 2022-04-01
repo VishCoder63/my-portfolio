@@ -21,8 +21,9 @@ hand-burger{
 
 .nav>ul li:hover{
   text-decoration-line:underline;
+  text-decoration-style: dashed;
   text-underline-offset: .5rem;
-  text-decoration-thickness: 2px;
+  text-decoration-thickness: 2.5px;
 }
 .nav a{
   color: white;
