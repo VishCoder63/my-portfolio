@@ -12,7 +12,8 @@ export function Navbar() {
     <div className='nav'>
         <a href='#intro-div'>
         <FaTypo3 size={60} style={{
-          color: '#FF8906'
+          // color: '#FF8906'
+          color: '#059DC0'
         }} /></a>
       
       <ul className={mediaApplied?'change':''}>

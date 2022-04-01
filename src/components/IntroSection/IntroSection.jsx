@@ -8,7 +8,8 @@ export function IntroSection() {
         <img src={pic} alt="" />
       </div>
       <div>
-        <h1>👋👋👋 I'm Vishnu Nair</h1>
+        {/* <h1>👋👋👋 I'm Vishnu Nair</h1> */}
+        <h1>Vishnu Nair</h1>
         <p>
           Process-oriented and growth-minded full-stack developer specializing
           in MERN stack. With a keen interest in problem solving and web
@@ -16,8 +17,8 @@ export function IntroSection() {
           focused company.
           <br />
           <br />I have an experience of building Web apps using HTML / CSS /
-          JavaScript / Reactjs / Redux / Nodejs / MongoDb etc. Actively learning new
-          technologies and looking out for ways to apply my learnings.
+          JavaScript / Reactjs / Redux / Nodejs / MongoDb etc. Actively learning
+          new technologies and looking out for ways to apply my learnings.
         </p>
 
         <div className="resume">

@@ -12,17 +12,21 @@
   justify-content: space-evenly;
   align-items: center;
   margin-bottom: 50px;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
+  line-height: 1.7rem;
 }
 #intro-div > div:nth-child(1) {
-  margin-top: 2rem;
+  /* margin-top: .9rem; */
   width: 20rem;
   height: 20rem;
+  /* border: 1px solid red; */
 }
 #intro-div > div:nth-child(1) img {
   width: 99%;
   height: 100%;
   border-radius: 10%;
+  margin-top: -2.5rem;
+  box-shadow: rgb(255, 254, 254) 0px 2px 8px;
 }
 #intro-div > div:nth-child(2) {
   color: white;
@@ -34,12 +38,16 @@
 }
 #intro-div > div:nth-child(2) h1 {
   margin: 1rem 0;
-  color: #ff8906;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  /* color: #ff8906; */
+  color: #059DC0;
 }
 #intro-div > div:nth-child(2) > div.resume {
   width: 10rem;
   height: 4rem;
-  border: 1px solid #ff8906;
+  /* border: 1px solid #ff8906; */
+  border: 1px solid #059DC0;
   margin: auto;
   margin-top: 1.5rem;
   padding: 2.5%;
@@ -52,9 +60,12 @@
 
 #intro-div > div:nth-child(2) > div.resume:hover {
   /* border: 3px solid white; */
-  background-color: #ff8906;
+  /* background-color: #ff8906; */
+  background-color: #059DC0;
   transition: 0.5s;
 }
+
+
 
 @media (max-width: 1024px) and (min-width: 790px) {
   #intro-div {

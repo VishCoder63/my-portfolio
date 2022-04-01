@@ -12,6 +12,10 @@ h2 {
   height: 50rem;
   /* border: 1px solid red; */
 }
+.projects-container>h2 {
+margin-bottom: 2rem;
+margin-top: -2.2rem;
+}
 #projectsDiv {
   color: white;
   display: flex;
@@ -23,7 +27,8 @@ h2 {
 }
 #projectsDiv .features {
   display: inline-block;
-  background-color: rgb(255, 137, 6);
+  /* background-color: rgb(255, 137, 6); */
+  background-color: #059dc0;
   color: white;
   padding: 0.3rem 0.6rem;
   border-radius: 5%;
@@ -34,6 +39,7 @@ h2 {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  /* border: 1px solid red; */
 }
 #projectsDiv td:nth-child(2) {
   padding: 0.3rem;
@@ -42,8 +48,8 @@ h2 {
   border: 1px solid white;
   background-color: white;
   color: black;
-  width: 46%;
-  height: 100%;
+  width: 42%;
+  height: 95%;
   border-radius: 2%;
   padding: 0.5%;
   padding-bottom: 2rem;
@@ -53,10 +59,11 @@ h2 {
 #projectsDiv > div .proj-title {
   margin: 0.6rem;
   font-size: 1.3rem;
-  color: white;
+  color: #059dc0;
   padding: 0.5rem 0;
   border-radius: 2%;
-  background-color: rgb(255, 137, 6);
+  /* background-color: rgb(255, 137, 6); */
+  /* background-color: #059DC0; */
 }
 
 #projectsDiv > div > p,
@@ -73,23 +80,31 @@ h2 {
   font-size: 0.92rem;
   margin-top: 1rem;
 }
-#projectsDiv > div .button {
+/* #projectsDiv > div .button {
   height: 0.3rem;
-  width: 5rem;
+  width: 7rem;
   margin: 0.7rem 0;
   margin-right: 1rem;
-  display: inline-block;
   border: 2px solid rgb(255, 137, 6);
-  transition: 0.5s;
   border-radius: 10%;
-  padding: 1rem 0;
+  padding: 1.3rem 0;
+} */
+.buttonContainer {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 #projectsDiv > div .button a {
   padding: 0.2rem;
-  color: rgb(255, 137, 6);
+  /* color: rgb(255, 137, 6); */
+  color: #059dc0;
 }
 #projectsDiv > div .button:hover {
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+  text-decoration-thickness: 2px;
 }
 .projecttags {
   display: flex;
@@ -101,18 +116,22 @@ h2 {
 
 .projecttags > div {
   /* width: 10%; */
-  color: rgb(255, 137, 6);
+  /* color: rgb(255, 137, 6); */
+  color: #059dc0;
 }
 
-@media (max-width: 1200px) and (min-width: 790px) {
+@media (max-width: 1400px) and (min-width: 870px) {
   #projectsDiv {
     flex-direction: column;
     height: auto;
-    margin: 12rem auto;
+    margin: 5rem auto;
   }
   #projectsDiv > div {
-    width: 80%;
+    width: 65%;
     margin: 2rem 0rem;
+    height: auto;
+  }
+  #projectsDiv .features {
     height: auto;
   }
   h2 {
@@ -127,14 +146,14 @@ h2 {
   }
 }
 
-@media (max-width: 790px) {
+@media (max-width: 869px) {
   #projectsDiv {
     flex-direction: column;
     height: auto;
     margin: 6rem auto;
   }
   #projectsDiv > div {
-    width: 105%;
+    width: 80%;
     height: auto;
     margin: 2rem 0rem;
   }

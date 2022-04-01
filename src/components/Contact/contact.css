@@ -1,59 +1,60 @@
-*{
+* {
   box-sizing: border-box;
 }
 
-#contactDiv{    
-  color:black;
-  background-color:white;
+#contactDiv {
+  color: black;
+  background-color: white;
   height: 18rem;
   margin-top: 20px;
-  margin-bottom: 10px;  
+  margin-bottom: 10px;
 }
-h1{
+h1 {
   margin: 2rem 0;
   padding: 0;
 }
 
-#contactDiv>div p{
+#contactDiv > div p {
   margin: 1rem 0;
-  
-  }
-#contactDiv>div p span{
-  color: #A7A9BE;
+}
+#contactDiv > div p span {
+  color: #a7a9be;
 }
 
-#contactDiv>div{
-  color:black;    
-  height: 50%; 
-  width: 50%;  
+#contactDiv > div {
+  color: black;
+  height: 50%;
+  width: 50%;
   text-align: center;
   margin: 4em auto;
   padding-top: 2rem;
 }
 
-#contactDiv+p{  
+#contactDiv + p {
   color: white;
+  /* border: 2px solid red; */
+  margin: .7rem;
 }
-#contactDiv+p span{   
+#contactDiv + p span {
   color: red;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
-.socials a{
-  margin: 1rem .5rem 1rem 0;
+.socials a {
+  margin: 1rem 0.5rem 1rem 0;
   color: black;
-
 }
 
-@media (max-width:1024px) and (min-width:790px) {
-  
-  #contactDiv{
-    height:auto;
+@media (max-width: 1400px) and (min-width: 870px) {
+  #contactDiv {
+    height: auto;
+    border: 1px solid white;
+  }
+  #contactDiv + p {
+    height: auto;
   }
 }
-@media (max-width:790px) {
-  
-  #contactDiv{
-    height:auto;
+@media (max-width: 869px) {
+  #contactDiv {
+    height: auto;
   }
 }
-

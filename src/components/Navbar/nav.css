@@ -21,13 +21,15 @@ hand-burger{
 
 .nav>ul li:hover{
   text-decoration-line:underline;
-  text-underline-offset: 20px;
+  text-underline-offset: .5rem;
+  text-decoration-thickness: 2px;
 }
 .nav a{
   color: white;
 }
 .nav{
-  background-color:#0F0E17;  
+  /* background-color:#0F0E17;   */
+  background-color:#242629;  
   /* border:1px solid teal; */
   height: 6rem;
   width: 100%;
@@ -61,6 +63,7 @@ div.hand-burger{
     margin-top: 12rem;
     height: 100vh;
     width: 100%;
+    /* background-color:#0F0E17;     */
     background-color:#0F0E17;    
   }
   ul.change li{

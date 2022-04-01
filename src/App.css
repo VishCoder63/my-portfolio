@@ -1,9 +1,11 @@
 * {
   padding: 0px;
   margin: 0px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   box-sizing: border-box;
+  
 }
 .scrollBox {
   scroll-behavior: smooth;
@@ -13,7 +15,8 @@
 
 .App {
   text-align: center;
-  background-color: #0f0e17;
+  /* background-color: #0f0e17; */
+  background-color: #242629;
   /* color: white; */
   font-weight: 600;
 }

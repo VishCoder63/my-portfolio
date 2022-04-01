@@ -4,16 +4,16 @@ import { SiRedux,SiMongodb,SiPostman,SiNetlify } from 'react-icons/si'
 import { DiGit } from 'react-icons/di'
 
 let obj = {
-  'FaHtml5':<FaHtml5 color='#FF8906' size={40}/>,
-  'FaCss3Alt':<FaCss3Alt color='#FF8906' size={40}/>,
-  'FaJsSquare': <FaJsSquare color='#FF8906' size={ 40}/>,
-  'FaReact':<FaReact color='#FF8906' size={40}/>,
-  'FaNodeJs':<FaNodeJs color='#FF8906' size={40}/>,
-  'SiRedux':<SiRedux color='#FF8906' size={40}/>,
-  'SiMongodb':<SiMongodb color='#FF8906' size={40}/>,
-  'SiPostman':<SiPostman color='#FF8906' size={40}/>,
-  'SiNetlify':<SiNetlify color='#FF8906' size={40}/>,  
-  'DiGit':<DiGit color='#FF8906' size={40}/>,  
+  'FaHtml5':<FaHtml5 color='#059DC0' size={40}/>,
+  'FaCss3Alt':<FaCss3Alt color='#059DC0' size={40}/>,
+  'FaJsSquare': <FaJsSquare color='#059DC0' size={ 40}/>,
+  'FaReact':<FaReact color='#059DC0' size={40}/>,
+  'FaNodeJs':<FaNodeJs color='#059DC0' size={40}/>,
+  'SiRedux':<SiRedux color='#059DC0' size={40}/>,
+  'SiMongodb':<SiMongodb color='#059DC0' size={40}/>,
+  'SiPostman':<SiPostman color='#059DC0' size={40}/>,
+  'SiNetlify':<SiNetlify color='#059DC0' size={40}/>,  
+  'DiGit':<DiGit color='#059DC0' size={40}/>,  
 }
 export function Box({skills }) {
   return (
